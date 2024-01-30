@@ -1,4 +1,2 @@
-func executeMultiple(a: Int, b: Int) -> Int {
-    guard a >= 1, a <= 100, b >= 1, b <= 100 else { return 0 }
-    return a * b
-}
+let nums : [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
+print(nums[0] * nums[1])
