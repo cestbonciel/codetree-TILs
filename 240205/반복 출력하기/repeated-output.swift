@@ -5,5 +5,3 @@ func printString(_ length: Int) {
         print(repeatStr)
     }
 }
-
-printString(4)
