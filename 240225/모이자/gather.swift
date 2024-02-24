@@ -1,9 +1,9 @@
 import Foundation
 
-let INT_MAX = Int.max
+let maxNumber = Int.max
 
 func minTotalDistance(n: Int, arr: [Int]) -> Int {
-    var ans = INT_MAX
+    var ans = maxNumber
     
     for i in 0..<n {
         var sumVal = 0
